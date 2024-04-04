@@ -1,308 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script src="https://kit.fontawesome.com/0607d6f524.js" crossorigin="anonymous"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="flex flex-col">
-    <div id="Header" class="flex w-full justify-center items-center">
-      <div class="Logo pl-32 w-1/5 flex gap-10">
-        <img class="w-5 h-5" src="/img/logo.png" alt="" />
-        <span class="text-white logo-text">Portfolio</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://kit.fontawesome.com/0607d6f524.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="flex flex-col">
+  <div id="Header" class="flex w-full justify-center items-center">
+    <div class="Logo pl-32 w-1/5 flex gap-10">
+      <img class="w-5 h-5" src="/img/logo.png" alt="" />
+      <span class="text-white logo-text">Portfolio</span>
+    </div>
+    <div class="Nav pl-40 w-3/5">
+      <ul class="flex text-white">
+        <li><a class="hover-underline-animation" href="#">Home</a></li>
+        <li><a class="hover-underline-animation" href="#ProjectList">Projects</a></li>
+        <li>
+          <a class="hover-underline-animation" href="#Technologies">Technologies</a>
+        </li>
+        <li><a class="hover-underline-animation" href="#AboutMe">About Me</a></li>
+      </ul>
+    </div>
+    <div class="Nav-icon w-1/5">
+      <ul class="Nav-icon-List flex text-white">
+        <li>
+          <a href="#"><img class="icon-item" src="/img/github.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img class="icon-item" src="/img/fb.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img class="icon-item" src="/img/figma.png" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="Container" class="flex flex-col gap-24 justify-center">
+    <div id="Introduction" class="Container_Introduction sec-1 flex active relative w-11/12 mb-72 mt-32 active">
+      <div class="Introduction-text animate">
+        <div class="Introduction-Icon w-full">
+          <img src="/img/reactIcon.png" alt="" />
+          <img src="/img/htmlIcon.png" alt="" />
+          <img src="/img/CssIcon.png" alt="" />
+          <img src="/img/javascripIcon.png" alt="" />
+        </div>
+        <div class="Introduction-title">
+          <h1>Position : Front-End Developer</h1>
+        </div>
+        <div class="Introduction-desc">
+          <h2>
+            I am a Front End Developer skilled in creating compelling web
+            layouts with HTML, CSS, and JavaScript. Proficient in ReactJS, I
+            bring designs to life, enhancing user experience through dynamic
+            and responsive web applications. My focus on clean, maintainable
+            code reflects my dedication to delivering seamless and engaging
+            user interfaces.
+          </h2>
+        </div>
       </div>
-      <div class="Nav pl-40 w-3/5">
-        <ul class="flex text-white">
-          <li><a class="hover-underline-animation" href="#">Home</a></li>
-          <li><a class="hover-underline-animation" href="#ProjectList">Projects</a></li>
-          <li>
-            <a class="hover-underline-animation" href="#Technologies">Technologies</a>
-          </li>
-          <li><a class="hover-underline-animation" href="#AboutMe">About Me</a></li>
-        </ul>
-      </div>
-      <div class="Nav-icon w-1/5">
-        <ul class="Nav-icon-List flex text-white">
-          <li>
-            <a href="#"
-              ><img class="icon-item" src="/img/github.png" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#"><img class="icon-item" src="/img/fb.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img class="icon-item" src="/img/figma.png" alt=""
-            /></a>
-          </li>
-        </ul>
+      <div class="Introduction-img absolute right-4 top-0">
+        <img src="/img/drawing.png" alt="">
       </div>
     </div>
-    <div id="Container" class="flex flex-col gap-24 justify-center">
-      <div id = "Introduction"class="Container_Introduction sec-1 flex active relative w-11/12 mb-72 mt-32 active">
-        <div class="Introduction-text animate">
-          <div class="Introduction-Icon w-full"> 
-            <img src="/img/reactIcon.png" alt="" />
-            <img src="/img/htmlIcon.png" alt="" />
-            <img src="/img/CssIcon.png" alt="" />
-            <img src="/img/javascripIcon.png" alt="" />
-          </div>
-          <div class="Introduction-title">
-            <h1>Position : Front-End Developer</h1>
-          </div>
-          <div class="Introduction-desc">
-            <h2>
-              I am a Front End Developer skilled in creating compelling web
-              layouts with HTML, CSS, and JavaScript. Proficient in ReactJS, I
-              bring designs to life, enhancing user experience through dynamic
-              and responsive web applications. My focus on clean, maintainable
-              code reflects my dedication to delivering seamless and engaging
-              user interfaces.
-            </h2>
-          </div>
-        </div>
-        <div class="Introduction-img absolute right-4 top-0">
-          <img src="/img/drawing.png" alt="">
+    <div id="AboutMe" class="AboutMeSection sec-2 flex flex-col gap-20 justify-center items-center">
+      <div class="AboutMeSection-title text-left animate ">
+        <h1>About Me</h1>
+      </div>
+      <div class="Introduction-profile flex">
+        <img class="animate" src="/img/avatar.png" alt="" />
+        <div class="profile-detail ml-28 animate">
+          <span class="detail-title">FullName :
+            <p> Nguyễn Văn Thiện</p>
+          </span>
+          <span class="detail-title">Address :
+            <p> Binh Tan, Ho Chi Minh City</p>
+          </span>
+          <span class="detail-title">Email :
+            <p>nguyenvthien101203@gmail.com</p>
+          </span>
+          <span class="detail-title">Phone :
+            <p>0826426888</p>
+          </span>
+          <span class="detail-title">Age :
+            <p>20</p>
+          </span>
         </div>
       </div>
-      <div id = "AboutMe" class="AboutMeSection sec-2 flex flex-col gap-20 justify-center items-center">
-        <div class="AboutMeSection-title text-left animate ">
-          <h1>About Me</h1>
+      <div class="Introduction-road flex flex-col">
+        <div class="road-year flex justify-center gap-60">
+          <div class="yearItem">2021</div>
+          <div class="yearItem">2022</div>
+          <div class="yearItem">2023</div>
+          <div class="yearItem">2024</div>
         </div>
-        <div class="Introduction-profile flex">
-          <img class="animate" src="/img/avatar.png" alt="" />
-          <div class="profile-detail ml-28 animate">
-            <span class="detail-title"
-              >FullName :
-              <p> Nguyễn Văn Thiện</p>
-            </span>
-            <span class="detail-title"
-              >Address : 
-              <p> Binh Tan, Ho Chi Minh City</p>
-            </span>
-            <span class="detail-title"
-              >Email :
-              <p>nguyenvthien101203@gmail.com</p>
-            </span>
-            <span class="detail-title"
-              >Phone :
-              <p>0826426888</p>
-            </span>
-            <span class="detail-title"
-              >Age :
-              <p>20</p>
-            </span>
-          </div>
+        <div class="road-rectangle flex justify-center gap-64">
+          <div class="road-dot dot1"></div>
+          <div class="road-dot dot2"></div>
+          <div class="road-dot dot3"></div>
+          <div class="road-dot dot4"></div>
         </div>
-        <div class="Introduction-road flex flex-col">
-          <div class="road-year flex justify-center gap-60">
-            <div class="yearItem">2021</div>
-            <div class="yearItem">2022</div>
-            <div class="yearItem">2023</div>
-            <div class="yearItem">2024</div>
-          </div>
-          <div class="road-rectangle flex justify-center gap-64">
-            <div class="road-dot dot1"></div>
-            <div class="road-dot dot2"></div>
-            <div class="road-dot dot3"></div>
-            <div class="road-dot dot4"></div>
-          </div>
-          <div class="road-desc flex justify-center gap-10">
-            <div class="descItem">Start studying at Van Lang University</div>
-            <div class="descItem">Start learning Html, CSS and JavaScript Basic</div>
-            <div class="descItem">Start learning more about ReactJS, and creating NextSP project with position Front-end developer and design UI/UX for Customer Client</div>
-            <div class="descItem">Graduated from university with good</div>
-          </div>
+        <div class="road-desc flex justify-center gap-10">
+          <div class="descItem">Start studying at Van Lang University</div>
+          <div class="descItem">Start learning Html, CSS and JavaScript Basic</div>
+          <div class="descItem">Start learning more about ReactJS, and creating NextSP project with position Front-end
+            developer and design UI/UX for Customer Client</div>
+          <div class="descItem">Graduated from university with good</div>
         </div>
-      </div>
-      <div id = "ProjectList" class="ProjectSection sec-3">
-        <div class="ProjectSection-title animate">
-          <h1>Projects</h1>
-        </div>
-        <div class="ProjectList items-center mt-24 flex w-full gap-56 justify-center content-center">
-          <div class="overProjectItem project1 animate">
-            <div class="ProjectItem flex flex-col items-center p-3 gap-7 relative">
-              <div class="ProjectItem-img">
-                <img src="/img/imageProject1.png" alt="" />
-              </div>
-              <div class="ProjectItem-title">E-commerce Website</div>
-              <div class="Rectangle"></div>
-              <div class="ProjectItem-desc">
-                <brResponsibility>
-                  E-commerce Website </br> Technologies : HTMLS, CSS, JavaScript,
-                  ReactJS, TailwindCSS </br> Responsibility : Front-End, Design UI/UX
-                </p>
-              </div>
-              <div class="flex w-full absolute h-20 bottom-3 items-center">
-                <div class="ProductItem-More absolute">Link Demo Here !</div>
-                <div class="ProductItem-btn absolute">
-                  <button><span>View More</span></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="overProjectItem project2 animate">
-            <div class="ProjectItem flex flex-col items-center p-3 gap-7 relative">
-              <div class="ProjectItem-img">
-                <img src="/img/imageProject2.png" alt="" />
-              </div>
-              <div class="ProjectItem-title">Mange User Dashboard</div>
-              <div class="Rectangle"></div>
-              <div class="ProjectItem-desc">
-                <p>
-                  E-commerce Website</br> Technologies : HTMLS, CSS, JavaScript,
-                  ReactJS, TailwindCSS, NodeJS </br> Responsibility : Front-End, Design UI/UX, Back-End
-                </p>
-              </div>
-              <div class="flex w-full absolute h-20 bottom-3 items-center">
-                <div class="ProductItem-More absolute">Link Demo Here !</div>
-                <div class="ProductItem-btn absolute">
-                  <button><span>View More</span></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="ProjectList items-center mt-24 flex w-full gap-56 justify-center content-center">
-          <div class="overProjectItem project3 animate">
-            <div class="ProjectItem flex flex-col items-center p-3 gap-7 relative">
-              <div class="ProjectItem-img">
-                <img src="/img/imageProject3.png" alt="" />
-              </div>
-              <div class="ProjectItem-title">Portfolio Personal Website</div>
-              <div class="Rectangle"></div>
-              <div class="ProjectItem-desc">
-                <brResponsibility>
-                 Portfolio Personal Website </br> Technologies : HTML, CSS, JavaScript, TailwindCSS </br> Responsibility : Front-End, Design UI/UX
-                </p>
-              </div>
-              <div class="flex w-full absolute h-20 bottom-3 items-center">
-                <div class="ProductItem-More absolute">Link Demo Here !</div>
-                <div class="ProductItem-btn absolute">
-                  <button><span>View More</span></button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="overProjectItem project4 animate">
-            <div class="ProjectItem flex flex-col items-center p-3 gap-7 relative">
-              <div class="ProjectItem-img">
-                <img src="/img/imageProject1.png" alt="" />
-              </div>
-              <div class="ProjectItem-title">E-commerce Website</div>
-              <div class="Rectangle"></div>
-              <div class="ProjectItem-desc ">
-                <p>
-                  E-commerce Website</br> Technologies : HTMLS, CSS, JavaScript,
-                  ReactJS, TailwindCSS </br> Responsibility : Front-End, Design UI/UX
-                </p>
-              </div>
-              <div class="flex w-full absolute h-20 bottom-3 items-center">
-                <div class="ProductItem-More absolute">Link Demo Here !</div>
-                <div class="ProductItem-btn absolute">
-                  <button><span>View More</span></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id ="Technologies" class="TechnologiesSection sec-4">
-        <div class="TechnologiesSection-title animate">
-          <h1>Technologies</h1>
-        </div>
-        <div
-          class="TechnologiesList items-center mt-24 flex flex-col w-full justify-center content-center"
-        >
-          <div class="TechnologiesItem flex flex-col p-3 gap-7">
-            <div class="TechnologiesItem-title">HTML</div>
-            <div class="Technologies-Rectangle"></div>
-          </div>
-          <div class="TechnologiesItem flex flex-col p-3 gap-7">
-            <div class="TechnologiesItem-title">CSS</div>
-            <div class="Technologies-Rectangle"></div>
-          </div>
-          <div class="TechnologiesItem flex flex-col p-3 gap-7">
-            <div class="TechnologiesItem-title">JavaScript</div>
-            <div class="Technologies-Rectangle"></div>
-          </div>
-          <div class="TechnologiesItem flex flex-col p-3 gap-7">
-            <div class="TechnologiesItem-title">ReactJS</div>
-            <div class="Technologies-Rectangle"></div>
-          </div>
-        </div>
-        <div class="Skill ">
-          <div class="skill-title">
-            Additional technologies and skills
-          </div>
-          <div class="skill-list w-4/5 flex gap-44 justify-center">
-            <ul>
-              <li class="skill-item">Git</li>
-              <li class="skill-item">Vercel Deployment</li>
-              <li class="skill-item">English Quite Good</li>
-            </ul>
-            <ul>
-              <li class="skill-item">Quick learning</li>
-              <li class="skill-item">Responsible person</li>
-            </ul>
-            <ul>
-              <li class="skill-item">Teamwork</li>
-              <li class="skill-item">Researching Good</li>
-            </ul>
-          </div>
-        </div>
-        
       </div>
     </div>
-    <div class="" id="Footer"></div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">On Top</button>
-    
-    <script>
-      // Get the button
-      let mybutton = document.getElementById("myBtn");
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
+    <div id="ProjectList" class="ProjectSection sec-3">
+      <div class="ProjectSection-title animate">
+        <h1>Projects</h1>
+      </div>
+      <div class="ProjectList items-center mt-24 flex w-full gap-56 justify-center content-center">
+        <div class="overProjectItem project1 animate">
+          <div class="ProjectItem flex flex-col items-center p-3 gap-7 relative">
+            <div class="ProjectItem-img">
+              <img src="/img/imageProject1.png" alt="" />
+            </div>
+            <div class="ProjectItem-title">E-commerce Website</div>
+            <div class="Rectangle"></div>
+            <div class="ProjectItem-desc">
+              <brResponsibility>
+                E-commerce Website </brResponsibility> Technologies : HTMLS, CSS, JavaScript,
+              ReactJS, TailwindCSS </br> Responsibility : Front-End, Design UI/UX
+              </p>
+            </div>
+            <div class="flex w-full absolute h-20 bottom-3 items-center">
+              <div class="ProductItem-More absolute">Link Demo Here !</div>
+              <div class="ProductItem-btn absolute">
+                <button><span>View More</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overProjectItem project2 animate">
+          <div class="ProjectItem flex flex-col items-center p-3 gap-7 relative">
+            <div class="ProjectItem-img">
+              <img src="/img/imageProject2.png" alt="" />
+            </div>
+            <div class="ProjectItem-title">Mange User Dashboard</div>
+            <div class="Rectangle"></div>
+            <div class="ProjectItem-desc">
+              <p>
+                E-commerce Website</br> Technologies : HTMLS, CSS, JavaScript,
+                ReactJS, TailwindCSS, NodeJS </br> Responsibility : Front-End, Design UI/UX, Back-End
+              </p>
+            </div>
+            <div class="flex w-full absolute h-20 bottom-3 items-center">
+              <div class="ProductItem-More absolute">Link Demo Here !</div>
+              <div class="ProductItem-btn absolute">
+                <button><span>View More</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ProjectList items-center mt-24 flex w-full gap-56 justify-center content-center">
+        <div class="overProjectItem project3 animate">
+          <div class="ProjectItem flex flex-col items-center p-3 gap-7 relative">
+            <div class="ProjectItem-img">
+              <img src="/img/imageProject3.png" alt="" />
+            </div>
+            <div class="ProjectItem-title">Portfolio Personal Website</div>
+            <div class="Rectangle"></div>
+            <div class="ProjectItem-desc">
+              <brResponsibility>
+                Portfolio Personal Website </br> Technologies : HTML, CSS, JavaScript, TailwindCSS </br> Responsibility
+                : Front-End, Design UI/UX
+                </p>
+            </div>
+            <div class="flex w-full absolute h-20 bottom-3 items-center">
+              <div class="ProductItem-More absolute">Link Demo Here !</div>
+              <div class="ProductItem-btn absolute">
+                <button><span>View More</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overProjectItem project4 animate">
+          <div class="ProjectItem flex flex-col items-center p-3 gap-7 relative">
+            <div class="ProjectItem-img">
+              <img src="/img/imageProject1.png" alt="" />
+            </div>
+            <div class="ProjectItem-title">E-commerce Website</div>
+            <div class="Rectangle"></div>
+            <div class="ProjectItem-desc ">
+              <p>
+                E-commerce Website</br> Technologies : HTMLS, CSS, JavaScript,
+                ReactJS, TailwindCSS </br> Responsibility : Front-End, Design UI/UX
+              </p>
+            </div>
+            <div class="flex w-full absolute h-20 bottom-3 items-center">
+              <div class="ProductItem-More absolute">Link Demo Here !</div>
+              <div class="ProductItem-btn absolute">
+                <button><span>View More</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Technologies" class="TechnologiesSection sec-4">
+      <div class="TechnologiesSection-title animate">
+        <h1>Technologies</h1>
+      </div>
+      <div class="TechnologiesList items-center mt-24 flex flex-col w-full justify-center content-center">
+        <div class="TechnologiesItem flex flex-col p-3 gap-7">
+          <div class="TechnologiesItem-title">HTML</div>
+          <div class="Technologies-Rectangle"></div>
+        </div>
+        <div class="TechnologiesItem flex flex-col p-3 gap-7">
+          <div class="TechnologiesItem-title">CSS</div>
+          <div class="Technologies-Rectangle"></div>
+        </div>
+        <div class="TechnologiesItem flex flex-col p-3 gap-7">
+          <div class="TechnologiesItem-title">JavaScript</div>
+          <div class="Technologies-Rectangle"></div>
+        </div>
+        <div class="TechnologiesItem flex flex-col p-3 gap-7">
+          <div class="TechnologiesItem-title">ReactJS</div>
+          <div class="Technologies-Rectangle"></div>
+        </div>
+      </div>
+      <div class="Skill ">
+        <div class="skill-title">
+          Additional technologies and skills
+        </div>
+        <div class="skill-list w-4/5 flex gap-44 justify-center">
+          <ul>
+            <li class="skill-item">Git</li>
+            <li class="skill-item">Vercel Deployment</li>
+            <li class="skill-item">English Quite Good</li>
+          </ul>
+          <ul>
+            <li class="skill-item">Quick learning</li>
+            <li class="skill-item">Responsible person</li>
+          </ul>
+          <ul>
+            <li class="skill-item">Teamwork</li>
+            <li class="skill-item">Researching Good</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="" id="Footer"></div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">On Top</button>
+
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+  <script>
+    let sections = document.querySelectorAll(".sec-1, .sec-2, .sec-3, .sec-4");
+
+    window.onscroll = () => {
+      sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+
+        if (top >= offset && top < offset + height) {
+          sec.classList.add("active");
         } else {
-          mybutton.style.display = "none";
+          sec.classList.remove("active");
         }
-      }
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
-      
-      <script>
-        let sections = document.querySelectorAll(".sec-1, .sec-2, .sec-3, .sec-4");
+      })
+    }
 
-        window.onscroll = () =>{
-          sections.forEach(sec =>{
-            let top = window.scrollY;
-            let offset = sec.offsetTop - 150;
-            let height = sec.offsetHeight;
-            
-            if(top >= offset && top < offset + height){
-              sec.classList.add("active");
-            }else{
-              sec.classList.remove("active");
-            }
-          })
-        }
+  </script>
+</body>
 
-      </script>
-  </body>
-  
 </html>
